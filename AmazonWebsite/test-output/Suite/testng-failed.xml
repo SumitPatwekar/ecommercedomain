@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="SmokeTest(failed)">
+    <classes>
+      <class name="testClasses.AlltestCasesCombo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="TC02_VerifyLogoutFunctionality"/>
+        </methods>
+      </class> <!-- testClasses.AlltestCasesCombo -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
